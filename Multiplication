@@ -1,0 +1,4 @@
+mn=int(input("enter min number"))
+mx=int(input("enter max number"))
+for i in range(1,11):
+    print(f"{mn} *{i} is {mn * i}")
